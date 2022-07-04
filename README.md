@@ -45,3 +45,5 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 # netflix-clone
+The hosted site for this website is
+# https://netflix-clone-efd63.web.app/
