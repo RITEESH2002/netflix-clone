@@ -1,0 +1,50 @@
+.box{
+    display:flex;
+    flex-direction: column;
+    max-height:318px ;
+}
+.movieName{
+    padding-top: 14px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 700;
+}
+.fontChange{
+    font-size: 0px;
+}
+.row{
+    color:white;
+    margin-left:10px;
+    margin-top:10px;
+}
+.row_posters{
+    display:flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 10px;
+    margin-left: 10px;
+    scroll-behavior: smooth;
+}
+.row_posters::-webkit-scrollbar{
+    display:none;
+}
+.row_poster{
+    object-fit: contain;
+    max-height: 170px;
+    margin-right: 10px;
+    margin-left: 5px;
+    transition: transform 0.35s;
+}
+.row_poster:hover{
+    transform:scale(1.14);
+    opacity:1;
+    margin-bottom: 0px;
+    cursor:pointer;
+}
+.row_posterLarge{
+    max-height:320px;
+}
+.row_posterLarge:hover{
+    margin-bottom: 27px;
+    transform: scale(1.2);
+}

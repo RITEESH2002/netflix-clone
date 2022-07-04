@@ -1,0 +1,36 @@
+.nav{
+    position:fixed;
+    top:0;
+    padding:10px;
+    z-index: 1;
+    height:70px;
+    width:100%;
+    transition-timing-function:ease-in-out;
+    transition:all 1.5s;
+    background-color: rgba(0,0,0 ,0.04);
+}
+.nav_contents{
+  display:flex;
+  justify-content:space-between;
+}
+.nav_logo
+{
+  top:-15px;
+  position:fixed;
+  left:0;
+  width:120px;
+  object-fit:contain;
+  padding-left:20px;
+  cursor:pointer;
+}
+.nav_avatar
+{
+    top:15px;
+    cursor:pointer;
+    position:fixed;
+    right:15px;
+    width:40px;
+}
+.nav_black{
+    background-color: rgba(16, 15, 15, 0.936);
+}
